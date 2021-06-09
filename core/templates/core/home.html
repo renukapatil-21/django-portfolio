@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+    <div class="text-center ">
+        <img src="{% static 'core/images/img1.png' %}" alt="Profile picture" class="img-thumbnail" width="150px"
+            height="150px">
+    </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello, </h1>
+        <div class="px-4" style="line-height:2rem;">
+            <p style="text-indent: 100px;"> I am <b class="text-warining">Olivia Sharma</b> having a 5-years of full
+                stack
+                web development experiance for global businessess, I offer the technical expertise you are seeking for
+                your
+                web developer position.</p>
+            <p>Since earning my bachelor's degree in internet and web development from Oxford university, I have served as a web developer at <b class="text-warining">Information
+                    technology</b>,
+                one of biggest premier digital marketing and web development firm. in this position, I have led web
+                development projects for clients in diverse industries including technology, manufacturing,
+                pharmaceutical,
+                hospitality, retail and financial services</b> </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+        <a href="" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+ 
+</div>
+
+{% endblock content %}
